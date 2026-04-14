@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">APKM Store</string>
+    <string name="search_hint">Pesquisar um aplicativo</string>
+    <string name="search">Pesquisar</string>
+    <string name="app_details_install">Instalar</string>
+    <string name="app_details_vendor">"Desenvolvedor: "</string>
+    <string name="app_details_version">"Versão: "</string>
+    <string name="app_details_source">"Origem: "</string>
+    <string name="app_details_description_indicator">Descrição:</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="install">Instalar</string>
+    <string name="app_details_open_app">Abrir</string>
+</resources>

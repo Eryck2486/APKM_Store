@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/home_rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--Barra de pesquisa com botão de pesquisa-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_barra_pesquisa"
+        android:backgroundTint="@color/gray"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@id/search_bar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:queryHint="@string/search_hint"
+            app:iconifiedByDefault="false" />
+
+        <Button
+            android:id="@id/btn_execute_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/search" />
+    </LinearLayout>
+    <!--Barra de pesquisa com botão de pesquisa-->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/altura_barra_pesquisa"></GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
